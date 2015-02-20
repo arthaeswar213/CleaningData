@@ -1,31 +1,78 @@
+#Code Book
 
+### Data Frame details
 
-X_test 			=> Have all X_test file data
-Y_test 			=> Have all y_test file data
-Sub_test		=> Have all Subject_test file data
+X_test 	
+		
+		Have all X_test file data
+		
+Y_test
 
-X_train 		=> Have all X_train file data
-Y_train 		=> Have all y_train file data
-Sub_train		=> Have all Subject_train file data
+		Have all y_test file data
+		
+Sub_test
 
-feature_data	=> Have all features file data
-activity_data	=> Have all activity_label data
+		Have all Subject_test file data
 
-X_data			=> Merged X_test and X_train data
-Y_data			=> Merged Y_test and Y_train data and replaced the Y value with the Activity name
-Sub_data		=> Merged Sub_test and Sub_train data
+X_train
 
-meanCol			=> Have all the X_data column position where mean() text is present
-stdCol			=> Have all the X_data column position where std() text is present
+		Have all X_train file data
+		
+Y_train 
 
-mean_data		=> Have all the measurement(columns) having mean() in X_data
-std_data		=> Have all the measurement(columns) having  std() in X_data
+		Have all y_train file data
+		
+Sub_train
 
-mean_std_data	=> Merged mean_data and std_data.
+		Have all Subject_train file data
 
-final_data		=> Combined mean_std_data, Sub_data and Y_data.
+feature_data
 
-res_data		=> Average of each variable for each activity and each subject from final_data
+		Have all features file data
+
+activity_data
+
+		Have all activity_label data
+
+X_data	
+
+		Merged X_test and X_train data
+
+Y_data
+
+		Merged Y_test and Y_train data and replaced the Y value with the Activity name
+		
+Sub_data
+
+		Merged Sub_test and Sub_train data
+
+meanCol
+
+		Have all the X_data column position where mean() text is present
+
+stdCol
+
+		Have all the X_data column position where std() text is present
+
+mean_data
+
+		Have all the measurement(columns) having mean() in X_data
+		
+std_data
+
+		Have all the measurement(columns) having  std() in X_data
+		
+mean_std_data
+
+		Merged mean_data and std_data.
+
+final_data
+		
+		Combined mean_std_data, Sub_data and Y_data.
+
+res_data
+	
+		Average of each variable for each activity and each subject from final_data
 
 ##Data Dictionary for res_data or averages_data.txt file
 
